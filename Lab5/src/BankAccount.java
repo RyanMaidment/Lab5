@@ -1,10 +1,10 @@
-		
-public class BankAccount {
 
-	private long accountNumber;
-	Person person = new Person();
-	private double balance;
+	public class BankAccount {
 
+	protected long accountNumber;
+	protected Person accHolder = new Person();
+	protected double balance;
+	
 	public String toString() {
 		return null;
 	}
